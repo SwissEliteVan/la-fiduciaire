@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Bloquer fichiers et dossiers sensibles
+Disallow: /docs/
+Disallow: /src/
+Disallow: /content/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /README.md
+
+# Sitemap
+Sitemap: https://lafiduciaire.ch/sitemap.xml

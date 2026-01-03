@@ -1,0 +1,19 @@
+# humanstxt.org
+
+/* TEAM */
+Fiduciaire: LF - La Fiduciaire
+Responsable: Lucien Ferrari
+Contact: contact@lafiduciaire.ch
+Localisation: Suisse romande
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript ES6+
+Composants: Vanilla JS, CSS Custom Properties
+Accessibilité: WCAG 2.1 AA
+Performance: Core Web Vitals optimisé
+Hébergement: Hostinger
+
+/* THANKS */
+Fonts: System fonts (performance optimale)
+Icons: SVG personnalisés
+Inspirations: Design sobre fiduciaire suisse

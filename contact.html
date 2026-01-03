@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | La Fiduciaire Suisse</title>
+  <meta name="description" content="Contactez La Fiduciaire pour un devis comptable, fiscal ou RH. Réponse sous 24h ouvrées.">
+  <link rel="canonical" href="https://lafiduciaire.ch/contact.html">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Contact | La Fiduciaire">
+  <meta property="og:description" content="Prenez rendez-vous avec La Fiduciaire pour sécuriser vos obligations en Suisse.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lafiduciaire.ch/contact.html">
+  <meta property="og:image" content="/assets/img/og-cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0f3d5a">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a href="#contenu" class="skip-link">Passer au contenu principal</a>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Retour à l'accueil">
+        <img src="/assets/img/logo.svg" alt="LF - La Fiduciaire" width="120" height="40">
+        <span>La Fiduciaire</span>
+      </a>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+      <nav aria-label="Navigation principale">
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li class="dropdown" aria-expanded="false">
+            <button id="expertisesToggle" class="btn btn-ghost" aria-haspopup="true" aria-expanded="false">Services</button>
+            <div class="dropdown-menu" role="menu">
+              <a href="/comptabilite-generale.html">Comptabilité générale</a>
+              <a href="/fiscalite.html">Fiscalité</a>
+              <a href="/rh-salaires.html">RH &amp; salaires</a>
+              <a href="/administration-domiciliation.html">Administration &amp; domiciliation</a>
+              <a href="/creation-entreprise.html">Création d'entreprise</a>
+              <a href="/formation-coaching.html">Formation &amp; coaching</a>
+            </div>
+          </li>
+          <li><a href="/a-propos.html">À propos</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false"><span>Mode clair</span></button>
+        <a class="btn btn-secondary" href="#formulaire">Demander un devis</a>
+        <a class="phone-pill" href="tel:07866670860" data-config="phone">07866670860</a>
+      </div>
+      <div id="mobileMenu" class="mobile-menu" data-open="false">
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/expertises.html">Expertises</a></li>
+          <li><a href="/comptabilite-generale.html">Comptabilité générale</a></li>
+          <li><a href="/fiscalite.html">Fiscalité</a></li>
+          <li><a href="/rh-salaires.html">RH &amp; salaires</a></li>
+          <li><a href="/administration-domiciliation.html">Administration &amp; domiciliation</a></li>
+          <li><a href="/creation-entreprise.html">Création d'entreprise</a></li>
+          <li><a href="/formation-coaching.html">Formation &amp; coaching</a></li>
+          <li><a href="/a-propos.html">À propos</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main id="contenu">
+    <div class="container" style="padding:2rem 0 1rem;">
+      <nav class="breadcrumbs" aria-label="Fil d'Ariane">
+        <a href="/index.html">Accueil</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Contact</span>
+      </nav>
+      <h1>Contactez La Fiduciaire</h1>
+      <p class="meta">Un conseiller vous répond sous 24h ouvrées. Nous traitons vos données conformément à la LPD.</p>
+    </div>
+
+    <section class="section">
+      <div class="container grid" style="grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:1.25rem;">
+        <div class="card">
+          <h2>Coordonnées</h2>
+          <p><strong>Téléphone :</strong> <a href="tel:07866670860" data-config="phone">07866670860</a></p>
+          <p><strong>Email :</strong> <a href="mailto:contact@lafiduciaire.ch" data-config="email">contact@lafiduciaire.ch</a></p>
+          <p><strong>Adresse :</strong> <span data-config="address">Suisse</span></p>
+          <p class="meta">Horaires : 8h00 – 18h00 (lun-ven)</p>
+          <div class="featured" style="margin-top:1rem;">
+            <h3>Documents utiles</h3>
+            <p class="meta">Merci de préparer vos derniers états financiers ou pièces comptables pour accélérer la prise en charge.</p>
+            <ul class="list-inline" aria-label="Formats acceptés">
+              <li>PDF</li>
+              <li>Excel</li>
+              <li>Documents scannés</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" id="formulaire">
+          <h2>Formulaire</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-grid">
+              <div>
+                <label for="name">Nom *</label>
+                <input type="text" id="name" name="name" required autocomplete="name">
+              </div>
+              <div>
+                <label for="company">Société (optionnel)</label>
+                <input type="text" id="company" name="company" autocomplete="organization">
+              </div>
+              <div>
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+              </div>
+              <div>
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel">
+              </div>
+              <div>
+                <label for="subject">Sujet *</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div>
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required aria-describedby="formNote"></textarea>
+              </div>
+            </div>
+            <div style="display:none;">
+              <label for="companyInternal">Ne pas remplir</label>
+              <input type="text" id="companyInternal" name="companyInternal" tabindex="-1" autocomplete="off">
+            </div>
+            <p class="form-note" style="margin: 1rem 0;">
+              En soumettant ce formulaire, vous acceptez que vos données soient utilisées pour répondre à votre demande, conformément à notre <a href="/politique-confidentialite.html">Politique de confidentialité</a>.
+            </p>
+            <div style="margin:1rem 0;">
+              <label>
+                <input type="checkbox" name="consent" value="oui" required>
+                J'accepte le traitement de mes données selon la <a href="/politique-confidentialite.html" target="_blank">Politique de confidentialité (LPD)</a> *
+              </label>
+            </div>
+            <div id="formStatus" aria-live="polite"></div>
+            <button class="btn btn-secondary" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="grid grid-3">
+        <div>
+          <h3>LF - La Fiduciaire</h3>
+          <p>Lucien Ferrari<br><span data-config="address">Suisse</span></p>
+          <p><a href="mailto:contact@lafiduciaire.ch" data-config="email">contact@lafiduciaire.ch</a><br><a href="tel:07866670860" data-config="phone">07866670860</a></p>
+        </div>
+        <div>
+          <h3>Liens</h3>
+          <ul>
+            <li><a href="/plan-du-site.html">Plan du site</a></li>
+            <li><a href="/mentions-legales.html">Mentions légales</a></li>
+            <li><a href="/politique-confidentialite.html">Politique de confidentialité</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Besoin d'un échange rapide ? Nous répondons sous 24h ouvrées.</p>
+          <a class="btn btn-secondary" href="/contact.html">Contactez-nous</a>
+        </div>
+      </div>
+      <small>© <span id="year"></span> LF - La Fiduciaire. Tous droits réservés.</small>
+    </div>
+  </footer>
+
+  <script src="/assets/js/config.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lafiduciaire.ch/"},
+      {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://lafiduciaire.ch/contact.html"}
+    ]
+  }
+  </script>
+</body>
+</html>

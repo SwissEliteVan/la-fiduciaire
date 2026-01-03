@@ -1,0 +1,22 @@
+{
+  "name": "la-fiduciaire",
+  "version": "1.0.0",
+  "description": "Site de La Fiduciaire sous forme d'application Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["fiduciaire", "node", "express", "site"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "gray-matter": "^4.0.3",
+    "marked": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
